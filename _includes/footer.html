@@ -1,0 +1,14 @@
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+  <div class="inner">
+    <ul class="icons">
+      {% if site.github_username %}
+      <li><a href="https://github.com/{{ include.username }}" class="icon style2 fa-github"><span class="label">Github</span></a></li>
+      {% endif %}
+      {% if site.email %}
+      <li><a href="mailto:{{ site.email }}" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+      {% endif %}
+    </ul>
+    <p>&copy; {{ site.title | escape }}. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+  </div>
+</footer>

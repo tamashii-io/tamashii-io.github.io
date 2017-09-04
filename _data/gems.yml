@@ -1,0 +1,21 @@
+- name: Server
+  icon: diamond
+  description: The gem for building light-weight Websocket server
+  github: 5xRuby/tamashii
+- name: Client
+  icon: diamond
+  description: The event-driven Websocket client
+  github: 5xRuby/tamashii
+- name: Common
+  icon: diamond
+  description: The common parts for tamashii
+  github: 5xRuby/tamashii-common
+- name: Manager
+  icon: diamond
+  description: The IoT device manager
+  github: 5xRuby/tamashii-manager
+- name: Agent
+  icon: diamond
+  description: The IoT client running on Raspberry Pi
+  github: 5xRuby/tamashii-agent
+
