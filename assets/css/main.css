@@ -2021,7 +2021,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(71, 211, 229, 0.2);
+			background-color: #eee;
 			box-shadow: inset 0 0 0 1px #d30002;
 			color: #d30002 !important;
 		}
@@ -6260,7 +6260,7 @@
 			.gallery.style1 input[type="button"]:active,
 			.gallery.style1 button:active,
 			.gallery.style1 .button:active {
-				background-color: rgba(71, 211, 229, 0.2);
+				background-color: #eee;
 				box-shadow: inset 0 0 0 1px #d30002;
 				color: #d30002 !important;
 			}
@@ -6590,7 +6590,7 @@
 			.gallery.style2 input[type="button"]:active,
 			.gallery.style2 button:active,
 			.gallery.style2 .button:active {
-				background-color: rgba(71, 211, 229, 0.2);
+				background-color: #eee;
 				box-shadow: inset 0 0 0 1px #d30002;
 				color: #d30002 !important;
 			}
@@ -8165,7 +8165,7 @@
 				#wrapper > .invert input[type="button"]:active,
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
-					background-color: rgba(71, 211, 229, 0.2);
+					background-color: #eee;
 					box-shadow: inset 0 0 0 1px #d30002;
 					color: #d30002 !important;
 				}
