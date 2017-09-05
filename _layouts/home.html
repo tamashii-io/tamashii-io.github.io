@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for project in site.data.projects %}
-<section class="spotlight style1 orient-{% cycle 'left', 'right' %} content-align-left image-position-center onscroll-image-fade-in" id="{{ project.id }}">
+<section class="spotlight style1 orient-{% cycle 'right', 'left' %} content-align-left image-position-center onscroll-image-fade-in" id="{{ project.id }}">
   <div class="content">
     <h2>{{ project.name }}</h2>
     <p>{{ project.description }}</p>
@@ -17,17 +17,22 @@ layout: default
 </section>
 {% endfor %}
 
-<section class="wrapper style1 align-center">
+<section id="gems" class="wrapper style1 align-center">
   <div class="inner">
     <h2>Gems</h2>
     <p>Tamashii is building from many rubygems to constructor our ecosystem.</p>
     <div class="items style1 medium onscroll-fade-in">
       {% for gem in site.data.gems %}
+      <a href="https://github.com/{{ gem.github }}" target="_blank">
       <section>
-        <span class="icon style2 major fa-{{ gem.icon }}"></span>
-        <h3><a href="https://github.com/{{ gem.github }}" target="_blank">{{ gem.name }}</a></h3>
+        <span class="icon style2 major">
+          <img src="{{ gem.icon | relative_url }}" alt="{{ project.name }}" />
+          <span class="circle"></span>
+        </span>
+        <h3>{{ gem.name }}</h3>
         <p>{{ gem.description }}</p>
       </section>
+      </a>
       {% endfor %}
     </div>
   </div>
