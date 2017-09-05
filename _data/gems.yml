@@ -1,5 +1,5 @@
 - name: Server
-  icon: diamond
+  icon: server
   description: The gem for building light-weight Websocket server
   github: 5xRuby/tamashii
 - name: Client
