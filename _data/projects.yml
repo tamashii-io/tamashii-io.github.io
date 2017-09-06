@@ -1,10 +1,10 @@
 - id: first
   name: Tamashii Checkin
-  description: The conference checkin system
+  description: The conference check-in system
   screenshot: /images/spotlight01.jpg
   github: tamashii-io/tamashii-checkin
 - id: second
   name: Tamashii Clockin
-  description: The clockin system
+  description: The clock in system
   screenshot: /images/spotlight02.jpg
   github: tamashii-io/tamashii-clockin
